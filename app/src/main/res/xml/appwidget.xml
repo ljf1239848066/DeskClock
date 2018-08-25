@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="320dp"
+    android:minHeight="60dp"
+    android:updatePeriodMillis="30000"
+    android:initialLayout="@layout/appwidget" >
+</appwidget-provider>
+<!-- 描述桌面组件属性
+android:minWidth：桌面组件的最小宽度
+android:minHeight：面组件的最小高度
+android:updatePeriodMillis：桌面组件的更新时间间隔
+android:initialLayout：桌面组件的界面描述文件
+android:configure:使用方法【android:configure="com.test.widget.TestActivity"】
+		若在启动Widget前需要先启动一个Activity，则需要设定该项为你的Activity
+ -->

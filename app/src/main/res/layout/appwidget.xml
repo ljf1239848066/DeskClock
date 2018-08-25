@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+	<!-- 时间控件 -->
+    <TextView 
+        android:id="@+id/widget_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="45dp"
+        android:textColor="#C0C4B8"
+        android:gravity="center"/>
+    <!-- 日期控件 -->
+	<TextView 
+        android:id="@+id/widget_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_time"
+        android:textSize="10dp"
+        android:textColor="#C0C4B8"
+        android:gravity="center"/>
+
+</RelativeLayout>
